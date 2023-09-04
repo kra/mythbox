@@ -1,0 +1,5 @@
+[baseinstall]
+mythologic.eschaton.quest
+
+[digitalocean]
+localhost ansible_connection=local

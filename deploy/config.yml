@@ -1,0 +1,9 @@
+---
+# - name: copy misc
+#   copy:
+#     src: "{{ src }}/opt/redarmorboys/misc/"
+#     dest: /opt/redarmorboys/misc/
+- name: copy myth
+  copy:
+    src: "{{ src }}/home/redarmorboy/myth_2/"
+    dest: home/redarmorboy/myth_2/

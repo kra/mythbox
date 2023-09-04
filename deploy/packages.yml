@@ -1,0 +1,16 @@
+---
+# distro package setup and installation
+- name: Update repositories cache
+  ansible.builtin.apt:
+    update_cache: yes
+- name: Update all packages to their latest version
+  ansible.builtin.apt:
+    name: "*"
+    state: latest    
+- name: install packages
+  ansible.builtin.apt:
+    name:
+      - tigervnc-standalone-server
+      - tigervnc-viewer
+      - xfce4
+      - xterm
