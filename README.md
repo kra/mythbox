@@ -17,7 +17,7 @@ wait for DNS to propagate with "nslookup mythologic.eschaton.quest"
   - vncviewer localhost::59000
   - (or just run the client on the server over X)
 - on vnc client:
-  - ~/Myth\ II/Myth2_64bit
+  - ~/myth_2/Myth2_64bit
 - on server:
   - vncserver -kill :1
 
