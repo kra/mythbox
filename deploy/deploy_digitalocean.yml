@@ -15,7 +15,7 @@
     name: "{{ hostname }}"
     unique_name: yes
     oauth_token: "{{ deploy_access_token }}"
-    size_id: s-1vcpu-1gb
+    size_id: c-2
     region_id: sfo3
     image: ubuntu-22-04-x64
     ssh_keys: ["{{ ssh_key.data.ssh_key.fingerprint }}"]
